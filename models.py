@@ -1,5 +1,6 @@
 import os
 from google import genai
+# set api key
 gemini_api_key = os.getenv('GEMENI_API_KEY')
 client = genai.Client(api_key = gemini_api_key)
 def gemini(prompt):
